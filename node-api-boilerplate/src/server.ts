@@ -6,7 +6,7 @@ import { dbConfig } from './config/database';
 import { swaggerConfig } from './config/swagger';
 
 // Endpoints
-import { ClientController } from './modules/users/v1';
+import { ClientController } from './modules/clients/v1';
 
 const app: App = new App({
     port: Number(process.env.PORT || 8080),
