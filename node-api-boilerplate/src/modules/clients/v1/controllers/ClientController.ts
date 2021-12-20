@@ -96,7 +96,6 @@ export class ClientController extends BaseController {
      *               email: me@email.com
      *               phone: (34) 99999-9999
      *               status: true
-     *               invalidField: should be ignored
      *             required:
      *               - name
      *               - email
@@ -145,8 +144,8 @@ export class ClientController extends BaseController {
      *             example:
      *               id: clientId
      *               name: newName
-     *               email: newEmail
-     *               phone: newPhone
+     *               email: newEmail@mail.com
+     *               phone: (34) 99999-9999
      *               status: boolean
      *             required:
      *               - id
